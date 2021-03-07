@@ -16,7 +16,7 @@ void main() {
                 fontSize: 50,
                 fontWeight: FontWeight.bold,
                 fontFamily: 'Lobster',
-                color: Colors.redAccent.shade300,
+                color: Colors.redAccent.shade200,
               ),
             ),
           ),

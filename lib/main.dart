@@ -73,7 +73,8 @@ class _MyAppState extends State<MyApp> {
                     onPressed: () {
                       randomdice();
                       final player = AudioCache();
-                      player.play('dice.wav');
+                      player.play(
+                          'dice.wav'); // if user press the button , then he listen sound.
                     },
                     child: const Icon(
                       Icons.offline_bolt,

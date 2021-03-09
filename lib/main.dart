@@ -55,11 +55,12 @@ class _MyAppState extends State<MyApp> {
         children: <Widget>[
           Expanded(
             child: FlatButton(
-                child: Image.asset(
-              'images/dice$LeftDice.png',
-              height: 500,
-              width: 200,
-            )),
+              child: Image.asset(
+                'images/dice$LeftDice.png',
+                height: 500,
+                width: 200,
+              ),
+            ),
           ),
           Center(
             child: Column(
